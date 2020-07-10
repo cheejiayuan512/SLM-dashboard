@@ -1,6 +1,5 @@
 import base64
 import io
-import collections
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -11,7 +10,6 @@ import dash_table
 import time
 import pandas as pd
 import datetime as dt
-import os
 
 logdf = all_teams_df = pd.DataFrame()
 start_time = end_time = ''
