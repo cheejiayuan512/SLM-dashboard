@@ -65,7 +65,6 @@ app.layout = html.Div([
               config={'displayModeBar': False , 'displaylogo': False},
               style={'height': 1000}),
     dcc.Store(id='store', data=time.time()),
-    dcc.Store(id='local',storage_type='local',data=[]) # possibly reduces memory
     ])]),
     ]),
     html.Div(id='tabs-example-content')
